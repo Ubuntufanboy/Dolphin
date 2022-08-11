@@ -14,17 +14,20 @@ printf "# Choice -> "
 read choice
 
 if [ $choice == '1' ]; then
+    cd copycat
     python3 yt-copy.py
     exit
 fi
 
 
 if [$choice == '2' ]; then
+    cd videoeditor
     python3 video_editor.py
     exit
 fi
 
 if [$choice == '3' ]; then
+    cd singleframe
     bash ./main.sh
     exit
 fi 
