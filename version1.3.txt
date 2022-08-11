@@ -1,0 +1,11 @@
+Version 1.3 is not comparible to Version 1.2
+
+Version 1.3 is so different in fact that we don't even think we should keep the same name
+
+Version 1.3 adds these features to make this program usfull
+
+- Added an 2 entire new modes!
+- Fixed bugs
+- Added moviepy features
+- Cleaned up codebase
+- Added directory structures
