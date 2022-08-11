@@ -1,11 +1,11 @@
 # Dolphin
 ### An automatic video making software.
 
-![Dolphin](Dolphin.png "Dolphin")
 Dolphin is a framework where you can make videos fully automatically
 
 Dolphin does this by allowing different modes for making certain types of videos.
 
+![Dolphin](Dolphin.png "Dolphin")
 
 ## Installation
 
