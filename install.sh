@@ -6,7 +6,10 @@ sleep 2
 echo "Updating system..."
 sudo apt update && sudo apt upgrade
 echo "Giving executable perms..."
+chmod +x launcher.sh
+cd singleframe
 chmod +x main.sh combine.sh
+cd ..
 echo "Installing ffmpeg..."
 sudo apt install ffmpeg
 echo "Installing yt-dlp..."
@@ -15,6 +18,8 @@ echo "Installing mpv..."
 sudo apt install mpv
 echo "Installing python3..."
 sudo apt install python3
+echo "Installing python3 pip"
+sudo apt install python3-pip
 echo "Installing termcolor..."
 pip3 install termcolor
 echo "Installing pedalboard..."
