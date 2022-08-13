@@ -18,7 +18,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install git
 git clone https://github.com/Ubuntufanboy/Dolphin
 cd Dolphin/
-chmod +x install.sh launcher.sh
+chmod +x install.sh
 ./install.sh
 ```
 
