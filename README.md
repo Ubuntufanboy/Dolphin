@@ -94,6 +94,11 @@ Rather simple to use. Just follow the instructions given to you.
 
 ### Video editor mode
 
+
+# WARNING!!!
+
+### DEPENDING ON YOUR HARDWARE THIS MAY CAUSE LOTS OF HEAT AND CONSUME LOTS OF RESOURCES!!!!
+
 This mode will take at least 2 video files and as many audio files as you want to make a video
 
 Here are some helpful hints
