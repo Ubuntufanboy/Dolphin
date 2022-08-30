@@ -99,7 +99,9 @@ Rather simple to use. Just follow the instructions given to you.
 
 ### DEPENDING ON YOUR HARDWARE THIS MAY CAUSE LOTS OF HEAT AND CONSUME LOTS OF RESOURCES!!!!
 
-This mode will take at least 2 video files and as many audio files as you want to make a video
+This mode will take at least 1 video files and 1 audio file as you want to make a video
+
+Our tests say that the less footage you have the better it will work
 
 Here are some helpful hints
 
