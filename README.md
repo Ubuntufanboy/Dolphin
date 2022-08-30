@@ -99,7 +99,7 @@ This mode will take at least 2 video files and as many audio files as you want t
 Here are some helpful hints
 
 - You must provide at least 1 audio file
-- You must provide at least 2 video files
+- You must provide at least 1 video file
 - The video files will not have their original audio but rather the audio of the audio files
 - You must provide the full path of the files
 - Try to only use mp4 and mp3 files
