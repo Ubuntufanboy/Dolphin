@@ -1,7 +1,7 @@
 RED='\033[1;31m'
 GREEN='\033[1;32m'
 NC='\033[0m' # No Color
-printf "${RED} ----- Welcome to auto-video-maker! ----- ${NC}\n"
+printf "${RED} ----- Welcome to the Dolphin lancher! ----- ${NC}\n"
 echo ''
 echo ''
 printf "${GREEN} ----- Please select a mode to use! ----- ${NC}\n"
@@ -15,7 +15,7 @@ read choice
 
 if [ $choice == '1' ]; then
     cd copycat
-    python3 yt-copy.py
+    python3 man-yt-copy.py
     exit
 fi
 

@@ -1,30 +1,19 @@
-from termcolor import colored
 from os import system
-from configparser import ConfigParser
-config = ConfigParser()
 try:
-    config.read('settings.ini')
-    download_bool = config.get('USER', 'youtube_upload')
-except:
-    download_bool = "ASK"
-
-if download_bool == "TRUE":
-    pass
-
-elif download_bool == "ASK":
-    print("Do you want to upload the video? y/n ")
-    skip = input(">>> ")
-    if skip == "n":
-        exit()        
-    else:
-        pass
-
-elif download_bool == "FALSE":
-    exit()
-
-else:
-    print("ERROR: Incorrect input! value must be \"TRUE\", \"ASK\", or \"FALSE\"")
-
+    from termcolor import colored
+except ImportError:
+    print("termcolor needs to be installed! Install it? y/n")
+    while 1:
+        answer = input(">>> ")
+        if answer == "y":
+            system("pip3 install termcolor")
+            break
+        elif answer == "n":
+            print("Dude...")
+            break
+        else:
+            print("Wrong input!")
+    
 msg = colored("Youtube", "red")
 msg = f"----- Welcome to the {msg} uploader! -----"
 print(msg)

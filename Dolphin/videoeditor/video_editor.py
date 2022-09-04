@@ -1,7 +1,10 @@
-import moviepy.editor as mpy
-from termcolor import colored
 from os import system
-
+try:
+    import moviepy.editor as mpy
+    from termcolor import colored
+except ImportError:
+    system("pip3 install moviepy")
+    system("pip3 install termcolor")
 clips = []
 workline = []
 timeline = []

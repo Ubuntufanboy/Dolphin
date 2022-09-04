@@ -1,3 +1,9 @@
+import os
+try:
+    import playsound
+except ImportError:
+    print("Hey you need to install playsound!")
+    os.system("pip3 install playsound")
 import logging
 class Silver:
     rec = []
@@ -11,7 +17,6 @@ class Silver:
 
     def video(file):
         import playsound
-        import time
         def player(file):
             while 1:
                 playsound.playsound(file)

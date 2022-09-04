@@ -6,13 +6,15 @@ import random
 import sys
 import time
 
-from apiclient.discovery import build
-from apiclient.errors import HttpError
-from apiclient.http import MediaFileUpload
-from oauth2client.client import flow_from_clientsecrets
-from oauth2client.file import Storage
-from oauth2client.tools import argparser, run_flow
-
+try:
+  from apiclient.discovery import build
+  from apiclient.errors import HttpError
+  from apiclient.http import MediaFileUpload
+  from oauth2client.client import flow_from_clientsecrets
+  from oauth2client.file import Storage
+  from oauth2client.tools import argparser, run_flow
+except ImportError:
+  os.system("pip3 install oauth2client")
 
 # Explicitly tell the underlying HTTP transport library not to retry, since
 # we are handling retry logic ourselves.

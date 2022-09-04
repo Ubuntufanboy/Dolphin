@@ -9,18 +9,5 @@ else
     printf "Your video has been created ${GREEN}sucsessfully${NC}\n"
 fi
 
-
-echo "Would you like to upload your video to youtube? y/n"
-read n
-if [ $n == 'y' ]; then
-    python3 upload_wizard.py
-    exit
-fi
-
-
-echo "Would you like to watch the video? y/n"
-read n
-if [ $n == 'y' ]; then
-    mpv video.mp4
-    exit
-fi
+python3 upload_wizard.py
+exit
