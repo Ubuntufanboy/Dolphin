@@ -22,7 +22,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-Congrats! You have no installed all of the tools needed to run this program!
+Congrats! You have now installed all of the tools needed to run this program!
 
 ## Setting up YouTube API
 
